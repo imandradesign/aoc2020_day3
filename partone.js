@@ -11,7 +11,7 @@ const moveToNextPosition = function(){
   }
 };
 
-// IIFE function to find which rows have a "#" symbol each time we move down 1 and right 3 spaces
+// IIFE to find which rows have a "#" symbol each time we move down 1 and right 3 spaces
 const ohShitATree = (function(){
   let treeCrashes = 0;
   // Loop through the characters in each array element

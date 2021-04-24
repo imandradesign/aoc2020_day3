@@ -47,7 +47,7 @@ const moveSlopeFive = function(){
   }
 };
 
-// Function for determining the crashes for each slope
+// IIFE for determining the crashes for each slope
 const ohShitATree = (function(){
   let crashesOne = 0;
   let crashesTwo = 0;
